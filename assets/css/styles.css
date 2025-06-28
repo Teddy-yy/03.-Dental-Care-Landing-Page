@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+.main-content{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    min-width: 205px;
+    line-height: 60px;
+    border-radius: 30px;
+    background: #2E80CE;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    padding-top: 22px;
+    background: #10375C;
+}
+
+.header.fixed{
+    position: sticky;
+    top: -14px;
+    z-index: 999;
+}
+
+.header__body{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header__navbar ul{
+    margin-left: 318px;
+    display: flex;
+}
+
+.header__navbar li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 21px;
+}
+
+.header li a,
+.header__log-in-btn{
+    color: #C9D2DA;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.header li:hover a,
+.header li.active a,
+.header__log-in-btn:hover{
+    color: #FFF;
+    text-shadow: 0.5px 0 0 currentColor;
+}
+
+.header li.active::before{
+    position: absolute;
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #FFF;
+    border-radius: 50%;
+    left: 7px;
+}
+
+.header__cta{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header__cta .header__sign-up-btn{
+    min-width: 104px;
+    line-height: 44px;
+    font-size: 1.6rem;
+    margin-left: 28px;
+}
+
