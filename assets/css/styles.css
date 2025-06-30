@@ -17,6 +17,10 @@ body{
     font-family: "Sora", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* Common */
 .main-content{
     width: 1170px;
@@ -50,7 +54,7 @@ a{
 
 .header.fixed{
     position: sticky;
-    top: -14px;
+    top: -22px;
     z-index: 999;
 }
 
@@ -110,3 +114,68 @@ a{
     margin-left: 28px;
 }
 
+/* Hero */
+.hero{
+    padding: 66px 0 110px;
+    background: #10375C;
+    color: #FFF;
+}
+
+.hero__body{
+    display: flex;
+}
+
+.hero__content{
+    width: 45%;
+    margin-right: 113px;
+}
+
+.hero__title{
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -0.014rem;
+}
+
+.hero__subtitle{
+    margin-top: 22px;
+    color: #C9D2DA;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+}
+
+.hero__cta{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 0 38px;
+}
+
+.hero__phone{
+    font-size: 1.8rem;
+    line-height: 1.67; /* 166.667% */
+}
+
+.hero__media{
+    display: flex;
+    align-items: center;
+}
+
+.hero__image{
+    width: 330px;
+    height: 540px;
+    object-fit: cover;
+}
+
+.hero__image:first-child{
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.hero__image:last-child{
+    width: 210px;
+    height: 410px; 
+    margin-left: -6px;
+    border-radius: 0px 6px 6px 0px;
+}
