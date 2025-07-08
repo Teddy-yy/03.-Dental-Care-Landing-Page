@@ -340,3 +340,61 @@ a{
     font-weight: 300;
     line-height: 1.75; /* 175% */
 }
+
+/* Promo */
+.promo{
+    padding: 65px 0;
+    margin-top: 105px;
+    background: #FFF;
+}
+
+.promo__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo__images{
+    position: relative;
+    width: 49%;
+    height: 491px;
+}
+
+.promo__img{
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.promo__img:first-child{
+    width: 512px;
+    height: 370px;
+}
+
+.promo__img:last-child{
+    position: absolute;
+    top: 121px;
+    left: 238px;
+    width: 332px;
+    height: 370px;
+}
+
+.promo__content{
+    width: 40%;
+}
+
+.promo__title{
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -0.01em;
+}
+
+.promo__desc{
+    color: #575F66;
+    margin-top: 18px;
+}
+
+.promo__btn{
+    margin-top: 38px;
+}
