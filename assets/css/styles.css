@@ -73,6 +73,15 @@ a{
     line-height: 1.75; /* 175% */
 }
 
+.desc.lv3{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.chervon-left{
+
+}
+
 /* Header */
 .header{
     padding-top: 22px;
@@ -397,4 +406,90 @@ a{
 
 .promo__btn{
     margin-top: 38px;
+}
+
+/* Virtual Dentist */
+.virtual-dentist{
+    background: #FFF;
+    padding: 65px 0;
+    margin-top: 105px;
+}
+
+.virtual-dentist__top{
+    text-align: center;
+}
+
+.virtual-dentist__btn{
+    margin-top: 38px;
+}
+
+.virtual-dentist__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.virtual-dentist__item{
+    width: 23%;
+    text-align: center;
+}
+
+.virtual-dentist__img{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 318px;
+    border-radius: 6px;
+    background: #EAF6FF;
+}
+
+.virtual-dentist__img img{
+    width: 100%;
+    height: 290px;
+}
+
+.virtual-dentist__name{
+    margin-top: 12px;
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.virtual-dentist__info{
+    color: #575F66;
+    line-height: 1.86; /* 185.714% */
+}
+
+.controls{
+    display: flex;
+    gap: 0 18px;
+    color: #575F66;
+    margin-top: 38px;
+}
+
+.chevron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    background: #FFF;
+}
+
+.chevron:first-child{
+    margin-left: auto;
+}
+
+.chevron:last-child{
+    margin-right: auto;
+}
+
+.chevron:hover{
+    background: #2E80CE;
+    color: #FFF;
+    border: 1px solid #2E80CE;
+    cursor: pointer;
 }
