@@ -493,3 +493,46 @@ a{
     border: 1px solid #2E80CE;
     cursor: pointer;
 }
+
+/* App Promo */
+.app-promo{
+    margin-top: 105px;
+    padding: 65px 0;
+}
+
+.app-promo__body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 427px;
+    border-radius: 4px;
+    background: #2E80CE;
+}
+
+.app-promo__img{
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.app-promo__content{
+    width: 50%;
+    margin-left: 514px;
+}
+
+.app-promo__title{
+    color: #FFF !important;
+    width: 489px;
+    letter-spacing: -0.01rem;
+}
+
+.app-promo__desc{
+    margin-top: 18px;
+    color: #FFF !important;
+}
+
+.app-promo__stores{
+    margin-top: 38px;
+    display: flex;
+    gap: 0 28px;
+}
