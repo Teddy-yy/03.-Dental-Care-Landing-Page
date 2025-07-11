@@ -479,11 +479,11 @@ a{
     background: #FFF;
 }
 
-.chevron:first-child{
+.virtual-dentist .chevron:first-child{
     margin-left: auto;
 }
 
-.chevron:last-child{
+.virtual-dentist .chevron:last-child{
     margin-right: auto;
 }
 
@@ -535,4 +535,94 @@ a{
     margin-top: 38px;
     display: flex;
     gap: 0 28px;
+}
+
+/* Latest News */
+.latest-news{
+    padding: 65px 0;
+    margin-top: 105px;
+    background: #FFF;
+}
+
+.latest-news__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-news__header{
+    width: 40%;
+}
+
+.latest-news__link{
+    display: inline-block;
+    margin-top: 28px;
+    color: #10375C;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.latest-news__link:hover{
+    opacity: 0.7;
+}
+
+.latest-news .controls{
+    margin-top: 28px;
+}
+
+.latest-news__list{
+    width: 48.7%;
+    display: flex;
+    gap: 0 30px;
+    margin-left: auto;
+}
+
+.latest-news__item{
+    width: calc((100% - 30px) / 2);
+    border-radius: 12px;
+    border: 1px solid #E8EBEE;
+}
+
+.latest-news__item:hover{
+    box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid #FFF;
+}
+
+.latest-news__img{
+    width: calc(100% + 2px);
+    height: 172px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    margin: -1px;
+}
+
+.latest-news__item-info{
+    padding: 18px 22px 21px;
+}
+
+.latest-news__item-title{
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.63; /* 162.5% */
+}
+
+.latest-news__desc{
+    margin-top: 10px;
+    color: #575F66;
+    line-height: 1.71; /* 171.429% */
+}
+
+.latest-news__item-link{
+    display: inline-block;
+    margin-top: 12px;
+    color: #10375C;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.latest-news__item-link:hover{
+    color: #2E80CE;
 }
