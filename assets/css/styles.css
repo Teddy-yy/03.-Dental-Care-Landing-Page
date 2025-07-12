@@ -78,10 +78,6 @@ a{
     font-weight: 300;
 }
 
-.chervon-left{
-
-}
-
 /* Header */
 .header{
     padding-top: 22px;
@@ -625,4 +621,43 @@ a{
 
 .latest-news__item-link:hover{
     color: #2E80CE;
+}
+
+/* Welcome Banner */
+.welcome-banner{
+    margin-top: 170px;
+    text-align: center;
+}
+
+.welcome-banner__body{
+    background: #F6FBFF;
+    padding: 100px 0;
+}
+
+.welcome-banner__title{
+    position: relative;
+}
+
+.welcome-banner__title::before{
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    content: '';
+    width: 136px;
+    height: 2px; 
+    background: #2E80CE;
+}
+
+.welcome-banner__desc{
+    margin: 38px auto 0;
+    width: 617px;
+    color: #575F66;
+    text-align: center;
+    line-height: 1.75; /* 175% */
+}
+
+.welcome-banner__btn{
+    margin-top: 38px;
 }
